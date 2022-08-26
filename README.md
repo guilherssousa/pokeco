@@ -1,4 +1,4 @@
-# Pokeco
+# Pokéco
 
 ## Overview
 
