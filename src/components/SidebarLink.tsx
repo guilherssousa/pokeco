@@ -14,7 +14,7 @@ const SidebarLink: React.FC<LinkProps> = ({ label, to, illustration }) => {
   const enabled = location.pathname === to;
 
   return (
-    <div className={styles.linkContainer}>
+    <Link className={styles.linkContainer} to={to}>
       <img
         alt={label}
         src={illustration}
@@ -23,10 +23,8 @@ const SidebarLink: React.FC<LinkProps> = ({ label, to, illustration }) => {
           filter: enabled ? "brightness(2)" : "brightness(1)",
         }}
       />
-      <Link className={styles.link} to={to}>
-        {label}
-      </Link>
-    </div>
+      <label className={styles.link}>{label}</label>
+    </Link>
   );
 };
 

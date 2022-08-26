@@ -14,11 +14,26 @@ type DexContextProviderProps = {
   children: React.ReactNode;
 };
 
-const DexContext = createContext({} as DexContextProps);
+const DexContext = createContext({
+  dex: [],
+  captured: [],
+  toggleCaptured: () => {},
+} as DexContextProps);
 
 const DexContextProvider = (props: DexContextProviderProps) => {
   const [pokedex, setPokedex] = useState<Pokemon[]>([]);
   const [capturedIds, setCapturedIds] = useState<number[]>([]);
+
+  // first load, search for @pokeco:captured in localStorage and setCapturedIds
+  useEffect(() => {
+    const localStorageCapturedIds = JSON.parse(
+      localStorage.getItem("@pokeco:captured") || "[]"
+    );
+
+    console.log("Checking local storage:", localStorageCapturedIds);
+
+    setCapturedIds(localStorageCapturedIds);
+  }, []);
 
   useEffect(() => {
     const loadPokedex = async () => {
@@ -29,23 +44,22 @@ const DexContextProvider = (props: DexContextProviderProps) => {
       });
       const { pokemon_entries } = data;
 
-      const promiseMap = (pokemon_entries as PokemonEntry[]).map((pokemon) =>
-        api.get(
-          pokemon.pokemon_species.url
-            .replace(api.baseURL, "")
-            .replace("-species", "")
-        )
+      const urls = (pokemon_entries as PokemonEntry[]).map((pokemon) =>
+        pokemon.pokemon_species.url
+          .replace(api.baseURL, "")
+          .replace("-species", "")
       );
 
-      const pokemonSpecies = (await Promise.allSettled(promiseMap)).reduce(
-        (acc: Pokemon[], curr) => {
-          if (curr.status === "fulfilled") {
-            acc.push(curr.value);
-          }
-          return acc;
-        },
-        []
+      const promises = await Promise.allSettled(
+        urls.map((url) => api.get(url))
       );
+
+      const pokemonSpecies = promises.reduce((acc: Pokemon[], curr) => {
+        if (curr.status === "fulfilled") {
+          acc.push(curr.value);
+        }
+        return acc;
+      }, []);
 
       setPokedex(pokemonSpecies);
     };
@@ -56,20 +70,29 @@ const DexContextProvider = (props: DexContextProviderProps) => {
   function toggleCaptured(id: string) {
     const idNumber = parseInt(id);
 
+    var newCapturedIds = [...capturedIds];
+
     if (capturedIds.includes(idNumber)) {
-      setCapturedIds((prev) =>
-        prev.filter((capturedId) => capturedId !== idNumber)
+      newCapturedIds = newCapturedIds.filter(
+        (capturedId) => capturedId !== idNumber
       );
     } else {
-      setCapturedIds((prev) => [...prev, idNumber]);
+      newCapturedIds.push(idNumber);
     }
+
+    setCapturedToLocalStorage(newCapturedIds);
+    setCapturedIds(newCapturedIds);
+  }
+
+  function setCapturedToLocalStorage(capturedList: number[]) {
+    localStorage.setItem("@pokeco:captured", JSON.stringify(capturedList));
   }
 
   return (
     <DexContext.Provider
       value={{
-        captured: capturedIds,
-        dex: pokedex,
+        captured: capturedIds || [],
+        dex: pokedex || [],
         toggleCaptured,
       }}
     >

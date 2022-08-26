@@ -2,18 +2,29 @@ import styles from "styles/sidebar.module.scss";
 
 import SidebarLink from "./SidebarLink";
 
+import useDex from "@/hooks/useDex";
+
 import listImage from "/list.svg";
 import capturedImage from "/captured.svg";
 
 const Sidebar = () => {
+  const { captured, dex } = useDex();
+
+  const percentage = Math.round((captured?.length / dex?.length) * 100);
+
   return (
     <aside className={styles.sidebar}>
-      <SidebarLink label="All" illustration={listImage} to="/" />
-      <SidebarLink
-        label="Captured"
-        illustration={capturedImage}
-        to="/captured"
-      />
+      <div className={styles.top}>
+        <SidebarLink label="All" illustration={listImage} to="/" />
+        <SidebarLink
+          label="Captured"
+          illustration={capturedImage}
+          to="/captured"
+        />
+      </div>
+      <div className={styles.bottom}>
+        Dex {percentage}% complete! ({captured?.length}/{dex?.length})
+      </div>
     </aside>
   );
 };
