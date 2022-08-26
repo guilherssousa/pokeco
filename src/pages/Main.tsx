@@ -8,6 +8,7 @@ const Main: React.FC = () => {
 
   return (
     <main className={styles.appHeader}>
+      <h2>All Pokemons ({dex.length})</h2>
       <PokemonGrid pokemons={dex} />
     </main>
   );
