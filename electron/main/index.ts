@@ -37,7 +37,11 @@ async function createWindow() {
       preload,
       nodeIntegration: true,
       contextIsolation: false,
+      devTools: true,
     },
+    minWidth: 1000,
+    maxWidth: 1200,
+    minHeight: 800,
   });
 
   if (app.isPackaged) {

@@ -1,0 +1,57 @@
+.pokemonGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+
+  row-gap: 1.5rem;
+
+  width: 100%;
+}
+
+.pokemonEntry {
+  width: 120px;
+  height: 120px;
+  position: relative;
+
+  user-select: none;
+  cursor: pointer;
+
+  & > .pokemonId {
+    color: #808080;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    line-height: 90%;
+  }
+
+  & > .pokemonSprite {
+    image-rendering: pixelated;
+    position: relative;
+    z-index: 5;
+    width: 90%;
+    height: 90%;
+  }
+
+  & > .pokemonEntryName {
+    color: lightgray;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  & > .capturedMark {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: fill;
+  }
+}
