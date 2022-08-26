@@ -4,13 +4,16 @@ import styles from "styles/pokemon.module.scss";
 import { Pokemon as IPokemon } from "@/types/Pokemon";
 
 import capturedImage from "/captured.svg";
+import useDex from "@/hooks/useDex";
 
 interface Props {
   pokemon: IPokemon;
 }
 
 const Pokemon: React.FC<Props> = ({ pokemon }) => {
-  const captured = false;
+  const { captured } = useDex();
+
+  const isCaptured = captured.includes(parseInt(pokemon.id));
 
   return (
     <div className={styles.pokemonEntry}>
@@ -21,7 +24,7 @@ const Pokemon: React.FC<Props> = ({ pokemon }) => {
       />
       <div className={styles.pokemonEntryName}>{pokemon.name}</div>
       <div className={styles.pokemonId}>{pokemon.id}</div>
-      {captured && (
+      {isCaptured && (
         <img
           alt="Capturado"
           src={capturedImage}

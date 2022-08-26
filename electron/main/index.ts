@@ -39,6 +39,7 @@ async function createWindow() {
       contextIsolation: false,
       devTools: true,
     },
+    width: 1200,
     minWidth: 1000,
     maxWidth: 1200,
     minHeight: 800,
