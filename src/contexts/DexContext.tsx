@@ -7,6 +7,7 @@ import api from "@/services/api";
 interface DexContextProps {
   dex: Pokemon[];
   captured: number[];
+  toggleCaptured: (id: string) => void;
 }
 
 type DexContextProviderProps = {
@@ -17,7 +18,7 @@ const DexContext = createContext({} as DexContextProps);
 
 const DexContextProvider = (props: DexContextProviderProps) => {
   const [pokedex, setPokedex] = useState<Pokemon[]>([]);
-  const [capturedIds, setCapturedIds] = useState<number[]>([6, 12]);
+  const [capturedIds, setCapturedIds] = useState<number[]>([]);
 
   useEffect(() => {
     const loadPokedex = async () => {
@@ -52,11 +53,24 @@ const DexContextProvider = (props: DexContextProviderProps) => {
     loadPokedex();
   }, []);
 
+  function toggleCaptured(id: string) {
+    const idNumber = parseInt(id);
+
+    if (capturedIds.includes(idNumber)) {
+      setCapturedIds((prev) =>
+        prev.filter((capturedId) => capturedId !== idNumber)
+      );
+    } else {
+      setCapturedIds((prev) => [...prev, idNumber]);
+    }
+  }
+
   return (
     <DexContext.Provider
       value={{
         captured: capturedIds,
         dex: pokedex,
+        toggleCaptured,
       }}
     >
       {props.children}

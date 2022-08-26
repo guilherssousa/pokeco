@@ -1,22 +1,29 @@
-import React from "react";
+import React, { MouseEventHandler } from "react";
 import styles from "styles/pokemon.module.scss";
 
 import { Pokemon as IPokemon } from "@/types/Pokemon";
 
-import capturedImage from "/captured.svg";
 import useDex from "@/hooks/useDex";
+
+import capturedImage from "/captured.svg";
 
 interface Props {
   pokemon: IPokemon;
 }
 
 const Pokemon: React.FC<Props> = ({ pokemon }) => {
-  const { captured } = useDex();
+  const { captured, toggleCaptured } = useDex();
 
   const isCaptured = captured.includes(parseInt(pokemon.id));
 
+  const handleClick: MouseEventHandler<HTMLDivElement> = (e) => {
+    if (e.shiftKey) {
+      toggleCaptured(pokemon.id);
+    }
+  };
+
   return (
-    <div className={styles.pokemonEntry}>
+    <div className={styles.pokemonEntry} onClick={handleClick}>
       <img
         className={styles.pokemonSprite}
         src={pokemon.sprites.front_default}
