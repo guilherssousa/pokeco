@@ -6,6 +6,17 @@
   height: 100vh;
   box-sizing: border-box;
 
+  .title {
+    text-transform: capitalize;
+  }
+
+  .pokemonImage {
+    width: 120px;
+    height: 120px;
+    image-rendering: pixelated;
+    object-fit: fill;
+  }
+
   .appHeader {
     font-size: 1.25rem;
     padding: 1rem;

@@ -9,6 +9,7 @@ import Sidebar from "@/components/Sidebar";
 import Main from "@/pages/Main";
 import Remaining from "@/pages/Remaining";
 import Captured from "@/pages/Captured";
+import Pokemon from "@/pages/Pokemon";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Main />} />
             <Route path="/remaining" element={<Remaining />} />
             <Route path="/captured" element={<Captured />} />
+            <Route path="/pokemon/:pokemonId" element={<Pokemon />} />
           </Routes>
         </div>
       </BrowserRouter>

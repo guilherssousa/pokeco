@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.pokemonName {
+  text-transform: capitalize;
+}
+
 .pokemonEntry {
   width: 120px;
   height: 120px;

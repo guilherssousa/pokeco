@@ -1,4 +1,5 @@
 import React, { MouseEventHandler } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "styles/pokemon.module.scss";
 
 import { Pokemon as IPokemon } from "@/types/Pokemon";
@@ -13,12 +14,15 @@ interface Props {
 
 const Pokemon: React.FC<Props> = ({ pokemon }) => {
   const { captured, toggleCaptured } = useDex();
+  const navigate = useNavigate();
 
   const isCaptured = captured.includes(parseInt(pokemon.id));
 
   const handleClick: MouseEventHandler<HTMLDivElement> = (e) => {
     if (e.shiftKey) {
       toggleCaptured(pokemon.id);
+    } else {
+      navigate(`/pokemon/${pokemon.id}`);
     }
   };
 
