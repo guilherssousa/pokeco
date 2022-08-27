@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import styles from "styles/app.module.scss";
 
 import { Pokemon as IPokemon, ILAE } from "@/types/Pokemon";
+
 import api from "@/services/api";
 
 const Pokemon = ({}) => {
@@ -25,7 +26,7 @@ const Pokemon = ({}) => {
 
   return (
     <main className={styles.appHeader}>
-      <h2 className={styles.title}>{pokemon?.name}</h2>
+      <h2 className={styles.pageTitle}>{pokemon?.name}</h2>
       <div>
         <img
           className={styles.pokemonImage}
