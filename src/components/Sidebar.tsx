@@ -5,6 +5,7 @@ import SidebarLink from "./SidebarLink";
 import useDex from "@/hooks/useDex";
 
 import listImage from "/list.svg";
+import remainingImage from "/remaining.svg";
 import capturedImage from "/captured.svg";
 
 const Sidebar = () => {
@@ -16,6 +17,11 @@ const Sidebar = () => {
     <aside className={styles.sidebar}>
       <div className={styles.top}>
         <SidebarLink label="All" illustration={listImage} to="/" />
+        <SidebarLink
+          label="Remaining"
+          illustration={remainingImage}
+          to="/remaining"
+        />
         <SidebarLink
           label="Captured"
           illustration={capturedImage}

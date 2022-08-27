@@ -7,6 +7,7 @@ import { DexContextProvider } from "./contexts/DexContext";
 import Sidebar from "@/components/Sidebar";
 
 import Main from "@/pages/Main";
+import Remaining from "@/pages/Remaining";
 import Captured from "@/pages/Captured";
 
 const App: React.FC = () => {
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Sidebar />
           <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/remaining" element={<Remaining />} />
             <Route path="/captured" element={<Captured />} />
           </Routes>
         </div>
