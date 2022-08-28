@@ -21,7 +21,7 @@ export interface ILAE {
 
 export interface PokemonSprites {
   front_default: string;
-  font_shiny: string;
+  front_shiny: string;
 }
 
 export interface PokemonEntry {
