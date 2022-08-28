@@ -4,7 +4,7 @@ Pokéco is a simple app to manage your Pokedex completion journey. It helps you 
 
 ## Overview
 
-Built with [electron-vite-react](https://github.com/electron-vite/electron-vite-react). It also uses Axios and PokéAPI.
+Built with [electron-vite-react](https://github.com/electron-vite/electron-vite-react). It also uses Axios, and data collected from PokéAPI..
 
 ## Features
 
