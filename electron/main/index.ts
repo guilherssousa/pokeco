@@ -60,7 +60,7 @@ async function createWindow() {
       return data;
     } catch (error) {
       return {
-        error,
+        errorMessage: error,
       };
     }
   });
