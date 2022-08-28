@@ -21,7 +21,7 @@ const Main: React.FC = () => {
 
   return (
     <main className={styles.appHeader}>
-      <h2 className={styles.pageTitle}>All Pokemons ({dex?.length})</h2>
+      <h2 className={styles.pageTitle}>All Pokémons ({dex?.length})</h2>
       <div>
         <SearchBar state={search} setState={setSearch} />
       </div>

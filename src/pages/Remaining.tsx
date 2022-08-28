@@ -26,7 +26,7 @@ const Remaining: React.FC = () => {
   return (
     <main className={styles.appHeader}>
       <h2 className={styles.pageTitle}>
-        All Pokemons remaining ({remainingPokemons?.length})
+        All Pokémons remaining ({remainingPokemons?.length})
       </h2>
       <div>
         <SearchBar state={search} setState={setSearch} />

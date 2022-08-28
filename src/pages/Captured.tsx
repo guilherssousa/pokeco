@@ -26,7 +26,7 @@ const Captured: React.FC = () => {
   return (
     <main className={styles.appHeader}>
       <h2 className={styles.pageTitle}>
-        All Pokemons captured ({capturedPokemons?.length})
+        All Pokémons captured ({capturedPokemons?.length})
       </h2>
       <div>
         <SearchBar state={search} setState={setSearch} />
