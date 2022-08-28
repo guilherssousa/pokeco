@@ -23,7 +23,14 @@ const SidebarLink: React.FC<LinkProps> = ({ label, to, illustration }) => {
           filter: enabled ? "brightness(2)" : "brightness(1)",
         }}
       />
-      <label className={styles.link}>{label}</label>
+      <label
+        className={styles.link}
+        style={{
+          color: enabled ? "white" : "#808080",
+        }}
+      >
+        {label}
+      </label>
     </Link>
   );
 };
