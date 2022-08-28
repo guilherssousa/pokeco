@@ -7,6 +7,7 @@ import useDex from "@/hooks/useDex";
 import listImage from "/list.svg";
 import remainingImage from "/remaining.svg";
 import capturedImage from "/captured.svg";
+import settingsImage from "/settings.svg";
 
 const Sidebar = () => {
   const { captured, dex } = useDex();
@@ -26,6 +27,11 @@ const Sidebar = () => {
           label="Captured"
           illustration={capturedImage}
           to="/captured"
+        />
+        <SidebarLink
+          label="Settings"
+          illustration={settingsImage}
+          to="/settings"
         />
       </div>
       <div className={styles.bottom}>

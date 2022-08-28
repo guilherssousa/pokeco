@@ -8,6 +8,8 @@ interface DexContextProps {
   dex: Pokemon[];
   captured: number[];
   toggleCaptured: (id: string) => void;
+  cleanCaptured: () => void;
+  importCaptured: (captured: number[]) => void;
 }
 
 type DexContextProviderProps = {
@@ -18,6 +20,8 @@ const DexContext = createContext({
   dex: [],
   captured: [],
   toggleCaptured: () => {},
+  cleanCaptured: () => {},
+  importCaptured: () => {},
 } as DexContextProps);
 
 const DexContextProvider = (props: DexContextProviderProps) => {
@@ -88,12 +92,24 @@ const DexContextProvider = (props: DexContextProviderProps) => {
     localStorage.setItem("@pokeco:captured", JSON.stringify(capturedList));
   }
 
+  function cleanCaptured() {
+    localStorage.removeItem("@pokeco:captured");
+    setCapturedIds([]);
+  }
+
+  function importCaptured(capturedList: number[]) {
+    setCapturedToLocalStorage(capturedList);
+    setCapturedIds(capturedList);
+  }
+
   return (
     <DexContext.Provider
       value={{
         captured: capturedIds || [],
         dex: pokedex || [],
         toggleCaptured,
+        cleanCaptured,
+        importCaptured,
       }}
     >
       {props.children}

@@ -18,16 +18,22 @@ const Pokemon: React.FC<Props> = ({ pokemon }) => {
 
   const isCaptured = captured.includes(parseInt(pokemon.id));
 
-  const handleClick: MouseEventHandler<HTMLDivElement> = (e) => {
+  const handleClick: MouseEventHandler<HTMLAnchorElement> = (e) => {
     if (e.shiftKey) {
+      e.preventDefault();
       toggleCaptured(pokemon.id);
-    } else {
-      navigate(`/pokemon/${pokemon.id}`);
+      return;
     }
   };
 
   return (
-    <div className={styles.pokemonEntry} onClick={handleClick}>
+    <a
+      className={styles.pokemonEntry}
+      onClick={handleClick}
+      href={`https://bulbapedia.bulbagarden.net/wiki/${pokemon.id}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img
         className={styles.pokemonSprite}
         src={pokemon.sprites.front_default}
@@ -42,7 +48,7 @@ const Pokemon: React.FC<Props> = ({ pokemon }) => {
           className={styles.capturedMark}
         />
       )}
-    </div>
+    </a>
   );
 };
 

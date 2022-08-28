@@ -1,5 +1,6 @@
-import { app, BrowserWindow, shell, ipcMain } from "electron";
+import { app, BrowserWindow, shell, ipcMain, dialog } from "electron";
 import { release } from "os";
+import { readFileSync } from "fs";
 import { join } from "path";
 
 // Disable GPU Acceleration for Windows 7
@@ -36,7 +37,6 @@ async function createWindow() {
     webPreferences: {
       preload,
       nodeIntegration: true,
-      contextIsolation: false,
       devTools: true,
     },
     width: 1200,
@@ -45,11 +45,30 @@ async function createWindow() {
     minHeight: 800,
   });
 
+  ipcMain.handle("open-data-file-dialog", async () => {
+    try {
+      const { filePaths } = await dialog.showOpenDialog({
+        properties: ["openFile"],
+        filters: [{ name: "JSON", extensions: ["json"] }],
+      });
+
+      const [filePath] = filePaths;
+
+      // open, read and parse the filepaths
+      const data = JSON.parse(readFileSync(filePath, "utf8"));
+
+      return data;
+    } catch (error) {
+      return {
+        error,
+      };
+    }
+  });
+
   if (app.isPackaged) {
     win.loadFile(indexHtml);
   } else {
     win.loadURL(url);
-    // win.webContents.openDevTools()
   }
 
   // Test actively push message to the Electron-Renderer
