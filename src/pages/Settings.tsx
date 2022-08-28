@@ -14,9 +14,9 @@ const Settings: React.FC = () => {
     const { pokecoNodeAPI } = window as any;
     const pna = pokecoNodeAPI as IpcBridge;
 
-    const { error, ...data } = await pna.openDataFileDialog();
+    const { errorMessage, ...data } = await pna.openDataFileDialog();
 
-    if (error as any) {
+    if (errorMessage as any) {
       return;
     }
 

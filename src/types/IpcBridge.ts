@@ -4,5 +4,5 @@ export interface IpcBridge {
 
 export interface IpcImportBackupResponse {
   captured: number[];
-  error: any;
+  errorMessage: any;
 }
