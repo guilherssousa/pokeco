@@ -1,23 +1,33 @@
 .searchBarComponent {
   background-color: #23272e;
-  padding: 0.325rem 0;
+  padding: 0.5rem 1rem;
   border-radius: 0.25rem;
 
   margin: 0.5rem 0;
-}
 
-.searchBarInput {
-  width: 100%;
-  padding: 0 1rem;
-  border: 0;
+  display: flex;
+  align-items: center;
 
-  appearance: none;
-  outline: none;
+  & > .searchBarIllustration {
+    width: 24px;
+    height: 24px;
+    user-select: none;
+    pointer-events: none;
+  }
 
-  font-family: "Poppins", sans-serif;
+  & > .searchBarInput {
+    width: 100%;
+    margin-left: 0.5rem;
+    border: 0;
 
-  background: transparent;
-  color: white;
+    appearance: none;
+    outline: none;
+
+    font-size: 1rem;
+
+    background: transparent;
+    color: white;
+  }
 }
 
 .buttonComponent {
