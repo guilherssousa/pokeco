@@ -2,9 +2,9 @@
  * @see https://www.electron.build/configuration/configuration
  */
 {
-  appId: "YourAppID",
-  productName: "YourAppName",
-  copyright: "Copyright © 2022 ${author}",
+  appId: "com.guilherssousa.pokeco",
+  productName: "Pokéco",
+  copyright: "MIT © 2022 ${author}",
   asar: true,
   directories: {
     output: "release/${version}",
