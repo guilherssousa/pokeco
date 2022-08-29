@@ -23,6 +23,7 @@ const SearchBar: React.FC<Props> = ({ state, setState }) => {
         autoCorrect="off"
         spellCheck={false}
         onChange={(e) => setState(e.target.value)}
+        autoFocus
       />
     </div>
   );
