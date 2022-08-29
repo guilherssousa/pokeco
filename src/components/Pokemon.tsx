@@ -14,7 +14,6 @@ interface Props {
 
 const Pokemon: React.FC<Props> = ({ pokemon }) => {
   const { captured, toggleCaptured } = useDex();
-  const navigate = useNavigate();
 
   const isCaptured = captured.includes(parseInt(pokemon.id));
 
@@ -40,7 +39,7 @@ const Pokemon: React.FC<Props> = ({ pokemon }) => {
         alt={pokemon.name}
       />
       <div className={styles.pokemonEntryName}>{pokemon.name}</div>
-      <div className={styles.pokemonId}>{pokemon.id}</div>
+      <div className={styles.pokemonId}>{pokemon.entry_number}</div>
       {isCaptured && (
         <img
           alt="Capturado"

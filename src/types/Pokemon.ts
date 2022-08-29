@@ -1,5 +1,6 @@
 export interface Pokemon {
   id: string;
+  entry_number: number;
   name: string;
   location_area_encounters: string;
   sprites: PokemonSprites;
