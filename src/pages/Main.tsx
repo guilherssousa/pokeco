@@ -20,25 +20,13 @@ const Main: React.FC = () => {
 
   const pokemonsToExibit = search.length ? searchResults : dex;
 
-  const groupedPokemons = useMemo(
-    () => groupByGen(pokemonsToExibit),
-    [pokemonsToExibit]
-  );
-
   return (
     <main className={styles.appHeader}>
       <h2 className={styles.pageTitle}>All Pokémons ({dex?.length})</h2>
       <div>
         <SearchBar state={search} setState={setSearch} />
       </div>
-      {Object.entries(groupedPokemons).map(([gen, pkm]) => (
-        <div key={gen}>
-          <h3 className={styles.pageHeading3}>
-            {DexGenNames[DexGen[gen as DexGen]]} ({pkm.length})
-          </h3>
-          <PokemonGrid pokemons={pkm} />
-        </div>
-      ))}
+      <PokemonGrid pokemons={pokemonsToExibit} />
     </main>
   );
 };
