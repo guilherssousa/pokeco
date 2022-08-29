@@ -34,6 +34,10 @@
     background-color: #1f2228;
   }
 
+  & > .link {
+    cursor: pointer;
+  }
+
   & > .illustration {
     width: 28px;
     height: 28px;
