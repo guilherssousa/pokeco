@@ -1,6 +1,6 @@
 import styles from "styles/app.module.scss";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { MemoryRouter, Route, Routes } from "react-router-dom";
 
 import { DexContextProvider } from "./contexts/DexContext";
 
@@ -15,7 +15,7 @@ import Pokemon from "@/pages/Pokemon";
 const App: React.FC = () => {
   return (
     <DexContextProvider>
-      <BrowserRouter>
+      <MemoryRouter>
         <div className={styles.app}>
           <Sidebar />
           <Routes>
@@ -26,7 +26,7 @@ const App: React.FC = () => {
             <Route path="/pokemon/:pokemonId" element={<Pokemon />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </MemoryRouter>
     </DexContextProvider>
   );
 };
