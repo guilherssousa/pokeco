@@ -44,3 +44,19 @@
   cursor: pointer;
   flex-shrink: 0;
 }
+
+.selectComponent {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  outline: none;
+
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+
+  & > option {
+    color: white;
+    background: #23272e;
+  }
+}

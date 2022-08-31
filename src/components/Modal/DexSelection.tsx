@@ -33,6 +33,9 @@ const DexSelection = () => {
         onChange={(e) => {
           setSelectedDex(e.target.value);
         }}
+        style={{
+          margin: "1rem 0",
+        }}
       >
         {availablePokedexes.map((dex) => (
           <option value={dex.id} key={dex.id}>
@@ -42,8 +45,12 @@ const DexSelection = () => {
       </Select>
 
       <div className={styles.actionRow}>
-        <Button onClick={handleCloseModal}>Close</Button>
-        <Button onClick={handleChangeDexAndCloseModal}>Confirm</Button>
+        <Button theme="cancel" onClick={handleCloseModal}>
+          Close
+        </Button>
+        <Button theme="confirm" onClick={handleChangeDexAndCloseModal}>
+          Confirm
+        </Button>
       </div>
     </Container>
   );
