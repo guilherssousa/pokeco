@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "731",
+    "name": "pikipek",
+    "entry_number": 1,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/731/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+    }
+  },
+  {
+    "id": "732",
+    "name": "trumbeak",
+    "entry_number": 2,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/732/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+    }
+  },
+  {
+    "id": "733",
+    "name": "toucannon",
+    "entry_number": 3,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/733/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    }
+  },
+  {
+    "id": "734",
+    "name": "yungoos",
+    "entry_number": 4,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/734/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png"
+    }
+  },
+  {
+    "id": "735",
+    "name": "gumshoos",
+    "entry_number": 5,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/735/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png"
+    }
+  },
+  {
+    "id": "19",
+    "name": "rattata",
+    "entry_number": 6,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/19/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+    }
+  },
+  {
+    "id": "20",
+    "name": "raticate",
+    "entry_number": 7,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/20/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+    }
+  },
+  {
+    "id": "10",
+    "name": "caterpie",
+    "entry_number": 8,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/10/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    }
+  },
+  {
+    "id": "11",
+    "name": "metapod",
+    "entry_number": 9,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/11/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    }
+  },
+  {
+    "id": "12",
+    "name": "butterfree",
+    "entry_number": 10,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/12/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    }
+  },
+  {
+    "id": "736",
+    "name": "grubbin",
+    "entry_number": 11,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/736/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png"
+    }
+  },
+  {
+    "id": "737",
+    "name": "charjabug",
+    "entry_number": 12,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/737/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"
+    }
+  },
+  {
+    "id": "738",
+    "name": "vikavolt",
+    "entry_number": 13,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/738/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"
+    }
+  },
+  {
+    "id": "438",
+    "name": "bonsly",
+    "entry_number": 14,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/438/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png"
+    }
+  },
+  {
+    "id": "185",
+    "name": "sudowoodo",
+    "entry_number": 15,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/185/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png"
+    }
+  },
+  {
+    "id": "440",
+    "name": "happiny",
+    "entry_number": 16,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/440/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+    }
+  },
+  {
+    "id": "113",
+    "name": "chansey",
+    "entry_number": 17,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/113/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    }
+  },
+  {
+    "id": "242",
+    "name": "blissey",
+    "entry_number": 18,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/242/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+    }
+  },
+  {
+    "id": "278",
+    "name": "wingull",
+    "entry_number": 19,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/278/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png"
+    }
+  },
+  {
+    "id": "279",
+    "name": "pelipper",
+    "entry_number": 20,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/279/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png"
+    }
+  },
+  {
+    "id": "739",
+    "name": "crabrawler",
+    "entry_number": 21,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/739/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"
+    }
+  },
+  {
+    "id": "740",
+    "name": "crabominable",
+    "entry_number": 22,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/740/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
+    }
+  },
+  {
+    "id": "92",
+    "name": "gastly",
+    "entry_number": 23,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/92/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    }
+  },
+  {
+    "id": "93",
+    "name": "haunter",
+    "entry_number": 24,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/93/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    }
+  },
+  {
+    "id": "94",
+    "name": "gengar",
+    "entry_number": 25,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/94/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    }
+  },
+  {
+    "id": "41",
+    "name": "zubat",
+    "entry_number": 26,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/41/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    }
+  },
+  {
+    "id": "42",
+    "name": "golbat",
+    "entry_number": 27,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/42/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    }
+  },
+  {
+    "id": "169",
+    "name": "crobat",
+    "entry_number": 28,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/169/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+    }
+  },
+  {
+    "id": "50",
+    "name": "diglett",
+    "entry_number": 29,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/50/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+    }
+  },
+  {
+    "id": "51",
+    "name": "dugtrio",
+    "entry_number": 30,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/51/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+    }
+  },
+  {
+    "id": "741",
+    "name": "oricorio-baile",
+    "entry_number": 31,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/741/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png"
+    }
+  },
+  {
+    "id": "54",
+    "name": "psyduck",
+    "entry_number": 32,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/54/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    }
+  },
+  {
+    "id": "55",
+    "name": "golduck",
+    "entry_number": 33,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/55/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    }
+  },
+  {
+    "id": "129",
+    "name": "magikarp",
+    "entry_number": 34,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/129/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+    }
+  },
+  {
+    "id": "130",
+    "name": "gyarados",
+    "entry_number": 35,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/130/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    }
+  },
+  {
+    "id": "339",
+    "name": "barboach",
+    "entry_number": 36,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/339/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png"
+    }
+  },
+  {
+    "id": "340",
+    "name": "whiscash",
+    "entry_number": 37,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/340/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png"
+    }
+  },
+  {
+    "id": "72",
+    "name": "tentacool",
+    "entry_number": 38,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/72/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    }
+  },
+  {
+    "id": "73",
+    "name": "tentacruel",
+    "entry_number": 39,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/73/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    }
+  },
+  {
+    "id": "456",
+    "name": "finneon",
+    "entry_number": 40,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/456/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png"
+    }
+  },
+  {
+    "id": "457",
+    "name": "lumineon",
+    "entry_number": 41,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/457/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png"
+    }
+  },
+  {
+    "id": "746",
+    "name": "wishiwashi-solo",
+    "entry_number": 42,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/746/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png"
+    }
+  },
+  {
+    "id": "370",
+    "name": "luvdisc",
+    "entry_number": 43,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/370/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png"
+    }
+  },
+  {
+    "id": "222",
+    "name": "corsola",
+    "entry_number": 44,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/222/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png"
+    }
+  },
+  {
+    "id": "747",
+    "name": "mareanie",
+    "entry_number": 45,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/747/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png"
+    }
+  },
+  {
+    "id": "748",
+    "name": "toxapex",
+    "entry_number": 46,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/748/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+    }
+  },
+  {
+    "id": "506",
+    "name": "lillipup",
+    "entry_number": 47,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/506/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png"
+    }
+  },
+  {
+    "id": "507",
+    "name": "herdier",
+    "entry_number": 48,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/507/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png"
+    }
+  },
+  {
+    "id": "508",
+    "name": "stoutland",
+    "entry_number": 49,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/508/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png"
+    }
+  },
+  {
+    "id": "133",
+    "name": "eevee",
+    "entry_number": 50,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/133/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    }
+  },
+  {
+    "id": "134",
+    "name": "vaporeon",
+    "entry_number": 51,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/134/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    }
+  },
+  {
+    "id": "135",
+    "name": "jolteon",
+    "entry_number": 52,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/135/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    }
+  },
+  {
+    "id": "136",
+    "name": "flareon",
+    "entry_number": 53,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/136/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    }
+  },
+  {
+    "id": "196",
+    "name": "espeon",
+    "entry_number": 54,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/196/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+    }
+  },
+  {
+    "id": "197",
+    "name": "umbreon",
+    "entry_number": 55,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/197/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+    }
+  },
+  {
+    "id": "470",
+    "name": "leafeon",
+    "entry_number": 56,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/470/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+    }
+  },
+  {
+    "id": "471",
+    "name": "glaceon",
+    "entry_number": 57,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/471/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+    }
+  },
+  {
+    "id": "700",
+    "name": "sylveon",
+    "entry_number": 58,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/700/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+    }
+  },
+  {
+    "id": "749",
+    "name": "mudbray",
+    "entry_number": 59,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/749/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+    }
+  },
+  {
+    "id": "750",
+    "name": "mudsdale",
+    "entry_number": 60,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/750/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+    }
+  },
+  {
+    "id": "174",
+    "name": "igglybuff",
+    "entry_number": 61,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/174/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+    }
+  },
+  {
+    "id": "39",
+    "name": "jigglypuff",
+    "entry_number": 62,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/39/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    }
+  },
+  {
+    "id": "40",
+    "name": "wigglytuff",
+    "entry_number": 63,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/40/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    }
+  },
+  {
+    "id": "128",
+    "name": "tauros",
+    "entry_number": 64,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/128/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+    }
+  },
+  {
+    "id": "241",
+    "name": "miltank",
+    "entry_number": 65,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/241/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png"
+    }
+  },
+  {
+    "id": "283",
+    "name": "surskit",
+    "entry_number": 66,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/283/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png"
+    }
+  },
+  {
+    "id": "284",
+    "name": "masquerain",
+    "entry_number": 67,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/284/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png"
+    }
+  },
+  {
+    "id": "751",
+    "name": "dewpider",
+    "entry_number": 68,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/751/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png"
+    }
+  },
+  {
+    "id": "752",
+    "name": "araquanid",
+    "entry_number": 69,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/752/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png"
+    }
+  },
+  {
+    "id": "753",
+    "name": "fomantis",
+    "entry_number": 70,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/753/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png"
+    }
+  },
+  {
+    "id": "754",
+    "name": "lurantis",
+    "entry_number": 71,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/754/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png"
+    }
+  },
+  {
+    "id": "755",
+    "name": "morelull",
+    "entry_number": 72,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/755/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
+    }
+  },
+  {
+    "id": "756",
+    "name": "shiinotic",
+    "entry_number": 73,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/756/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
+    }
+  },
+  {
+    "id": "46",
+    "name": "paras",
+    "entry_number": 74,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/46/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    }
+  },
+  {
+    "id": "47",
+    "name": "parasect",
+    "entry_number": 75,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/47/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    }
+  },
+  {
+    "id": "60",
+    "name": "poliwag",
+    "entry_number": 76,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/60/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    }
+  },
+  {
+    "id": "61",
+    "name": "poliwhirl",
+    "entry_number": 77,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/61/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    }
+  },
+  {
+    "id": "62",
+    "name": "poliwrath",
+    "entry_number": 78,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/62/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    }
+  },
+  {
+    "id": "186",
+    "name": "politoed",
+    "entry_number": 79,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/186/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    }
+  },
+  {
+    "id": "118",
+    "name": "goldeen",
+    "entry_number": 80,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/118/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    }
+  },
+  {
+    "id": "119",
+    "name": "seaking",
+    "entry_number": 81,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/119/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    }
+  },
+  {
+    "id": "349",
+    "name": "feebas",
+    "entry_number": 82,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/349/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png"
+    }
+  },
+  {
+    "id": "350",
+    "name": "milotic",
+    "entry_number": 83,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/350/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+    }
+  },
+  {
+    "id": "594",
+    "name": "alomomola",
+    "entry_number": 84,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/594/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png"
+    }
+  },
+  {
+    "id": "661",
+    "name": "fletchling",
+    "entry_number": 85,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/661/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+    }
+  },
+  {
+    "id": "662",
+    "name": "fletchinder",
+    "entry_number": 86,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/662/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+    }
+  },
+  {
+    "id": "663",
+    "name": "talonflame",
+    "entry_number": 87,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/663/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+    }
+  },
+  {
+    "id": "757",
+    "name": "salandit",
+    "entry_number": 88,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/757/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png"
+    }
+  },
+  {
+    "id": "758",
+    "name": "salazzle",
+    "entry_number": 89,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/758/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png"
+    }
+  },
+  {
+    "id": "104",
+    "name": "cubone",
+    "entry_number": 90,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/104/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    }
+  },
+  {
+    "id": "105",
+    "name": "marowak",
+    "entry_number": 91,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/105/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    }
+  },
+  {
+    "id": "115",
+    "name": "kangaskhan",
+    "entry_number": 92,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/115/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+    }
+  },
+  {
+    "id": "240",
+    "name": "magby",
+    "entry_number": 93,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/240/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+    }
+  },
+  {
+    "id": "126",
+    "name": "magmar",
+    "entry_number": 94,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/126/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    }
+  },
+  {
+    "id": "467",
+    "name": "magmortar",
+    "entry_number": 95,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/467/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+    }
+  },
+  {
+    "id": "759",
+    "name": "stufful",
+    "entry_number": 96,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/759/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png"
+    }
+  },
+  {
+    "id": "760",
+    "name": "bewear",
+    "entry_number": 97,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/760/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png"
+    }
+  },
+  {
+    "id": "761",
+    "name": "bounsweet",
+    "entry_number": 98,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/761/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+    }
+  },
+  {
+    "id": "762",
+    "name": "steenee",
+    "entry_number": 99,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/762/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+    }
+  },
+  {
+    "id": "763",
+    "name": "tsareena",
+    "entry_number": 100,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/763/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    }
+  },
+  {
+    "id": "764",
+    "name": "comfey",
+    "entry_number": 101,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/764/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png"
+    }
+  },
+  {
+    "id": "127",
+    "name": "pinsir",
+    "entry_number": 102,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/127/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    }
+  },
+  {
+    "id": "765",
+    "name": "oranguru",
+    "entry_number": 103,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/765/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png"
+    }
+  },
+  {
+    "id": "766",
+    "name": "passimian",
+    "entry_number": 104,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/766/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png"
+    }
+  },
+  {
+    "id": "704",
+    "name": "goomy",
+    "entry_number": 105,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/704/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+    }
+  },
+  {
+    "id": "705",
+    "name": "sliggoo",
+    "entry_number": 106,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/705/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+    }
+  },
+  {
+    "id": "706",
+    "name": "goodra",
+    "entry_number": 107,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/706/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+    }
+  },
+  {
+    "id": "351",
+    "name": "castform",
+    "entry_number": 108,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/351/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png"
+    }
+  },
+  {
+    "id": "767",
+    "name": "wimpod",
+    "entry_number": 109,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/767/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png"
+    }
+  },
+  {
+    "id": "768",
+    "name": "golisopod",
+    "entry_number": 110,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/768/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png"
+    }
+  },
+  {
+    "id": "120",
+    "name": "staryu",
+    "entry_number": 111,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/120/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    }
+  },
+  {
+    "id": "121",
+    "name": "starmie",
+    "entry_number": 112,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/121/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    }
+  },
+  {
+    "id": "769",
+    "name": "sandygast",
+    "entry_number": 113,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/769/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png"
+    }
+  },
+  {
+    "id": "770",
+    "name": "palossand",
+    "entry_number": 114,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/770/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png"
+    }
+  },
+  {
+    "id": "408",
+    "name": "cranidos",
+    "entry_number": 115,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/408/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
+    }
+  },
+  {
+    "id": "409",
+    "name": "rampardos",
+    "entry_number": 116,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/409/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+    }
+  },
+  {
+    "id": "410",
+    "name": "shieldon",
+    "entry_number": 117,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/410/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png"
+    }
+  },
+  {
+    "id": "411",
+    "name": "bastiodon",
+    "entry_number": 118,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/411/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png"
+    }
+  },
+  {
+    "id": "566",
+    "name": "archen",
+    "entry_number": 119,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/566/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png"
+    }
+  },
+  {
+    "id": "567",
+    "name": "archeops",
+    "entry_number": 120,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/567/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png"
+    }
+  },
+  {
+    "id": "564",
+    "name": "tirtouga",
+    "entry_number": 121,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/564/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png"
+    }
+  },
+  {
+    "id": "565",
+    "name": "carracosta",
+    "entry_number": 122,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/565/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+    }
+  },
+  {
+    "id": "708",
+    "name": "phantump",
+    "entry_number": 123,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/708/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+    }
+  },
+  {
+    "id": "709",
+    "name": "trevenant",
+    "entry_number": 124,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/709/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+    }
+  },
+  {
+    "id": "299",
+    "name": "nosepass",
+    "entry_number": 125,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/299/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png"
+    }
+  },
+  {
+    "id": "476",
+    "name": "probopass",
+    "entry_number": 126,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/476/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png"
+    }
+  },
+  {
+    "id": "771",
+    "name": "pyukumuku",
+    "entry_number": 127,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/771/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
+    }
+  },
+  {
+    "id": "170",
+    "name": "chinchou",
+    "entry_number": 128,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/170/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png"
+    }
+  },
+  {
+    "id": "171",
+    "name": "lanturn",
+    "entry_number": 129,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/171/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+    }
+  },
+  {
+    "id": "786",
+    "name": "tapu-lele",
+    "entry_number": 130,
+    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/786/encounters",
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
+    }
+  }
+]

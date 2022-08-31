@@ -1,8 +1,10 @@
 import React, { useState, useEffect, createContext } from "react";
 
-import { Pokemon } from "@/types/Pokemon";
+import { Pokemon, Pokedex as IPokedex } from "@/types/Pokemon";
 
-import pokemons from "@/data/pokemons.json";
+import nationalDex from "@/data/national.json";
+
+import dexList from "@/utils/dex";
 
 interface DexContextProps {
   dex: Pokemon[];
@@ -25,19 +27,34 @@ const DexContext = createContext({
 } as DexContextProps);
 
 const DexContextProvider = (props: DexContextProviderProps) => {
-  const [pokedex, setPokedex] = useState<Pokemon[]>(pokemons as Pokemon[]);
+  const [pokedex, setPokedex] = useState<Pokemon[]>([]);
   const [capturedIds, setCapturedIds] = useState<number[]>([]);
 
-  // first load, search for @pokeco:captured in localStorage and setCapturedIds
+  const defaultDexId = "national";
+
   useEffect(() => {
-    const localStorageCapturedIds = JSON.parse(
-      localStorage.getItem("@pokeco:captured") || "[]"
-    );
+    async function loadDefaultDex() {
+      const dex = dexList.find((d) => d.id === defaultDexId) as IPokedex;
 
-    console.log("Checking local storage:", localStorageCapturedIds);
+      const nationalDex = await import(`../data/${dex.id}.json`);
 
-    setCapturedIds(localStorageCapturedIds);
-  }, []);
+      setPokedex(nationalDex.default);
+    }
+
+    // first load, search for @pokeco:captured in localStorage and setCapturedIds
+    function loadCapturedPokemons() {
+      const localStorageCapturedIds = JSON.parse(
+        localStorage.getItem("@pokeco:captured") || "[]"
+      );
+
+      console.log("Checking local storage:", localStorageCapturedIds);
+
+      setCapturedIds(localStorageCapturedIds);
+    }
+
+    loadDefaultDex();
+    loadCapturedPokemons();
+  }, [defaultDexId]);
 
   function toggleCaptured(id: string) {
     const idNumber = parseInt(id);

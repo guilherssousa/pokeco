@@ -6,6 +6,11 @@ export interface Pokemon {
   sprites: PokemonSprites;
 }
 
+export interface Pokedex {
+  name: string;
+  id: string;
+  path: string;
+}
 export interface ILAE {
   location_area: {
     name: string;
