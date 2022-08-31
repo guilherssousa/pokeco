@@ -11,7 +11,7 @@ Built with [electron-vite-react](https://github.com/electron-vite/electron-vite-
 - [x] List all Pokémons
 - [x] Check for captured Pokémons
 - [x] Search by name and entry
-- [ ] Filter by Generation
+- [x] Filter by Generation
 - [ ] Import Caught and Seen Pokémons from Save files.
 
 ## Q&A
