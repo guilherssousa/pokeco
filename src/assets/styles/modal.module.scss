@@ -16,7 +16,8 @@
 .modalContainer {
   background-color: #282c34;
   height: fit-content;
-  width: 80vw;
+  min-width: 50vw;
+  max-width: 80vw;
   padding: 3rem 2rem;
   border-radius: 0.5rem;
 
