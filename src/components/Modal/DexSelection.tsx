@@ -8,6 +8,7 @@ import availablePokedexes, { AvailablePokedex } from "@/utils/dex";
 
 import { Container } from "./Common";
 import Button from "../Button";
+import Select from "../Select";
 
 const DexSelection = () => {
   const { currentDex, changeDex } = useDex();
@@ -27,7 +28,7 @@ const DexSelection = () => {
     <Container>
       <h2>Select your prefered Pokedex</h2>
 
-      <select
+      <Select
         value={selectedDex}
         onChange={(e) => {
           setSelectedDex(e.target.value);
@@ -38,7 +39,7 @@ const DexSelection = () => {
             {dex.name}
           </option>
         ))}
-      </select>
+      </Select>
 
       <div className={styles.actionRow}>
         <Button onClick={handleCloseModal}>Close</Button>
