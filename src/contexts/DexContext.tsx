@@ -2,13 +2,12 @@ import React, { useState, useEffect, createContext } from "react";
 
 import { Pokemon, Pokedex as IPokedex } from "@/types/Pokemon";
 
-import nationalDex from "@/data/national.json";
-
-import dexList from "@/utils/dex";
+import dexList, { AvailablePokedex } from "@/utils/dex";
 
 interface DexContextProps {
   dex: Pokemon[];
   captured: number[];
+  currentDex: string;
   toggleCaptured: (id: string) => void;
   cleanCaptured: () => void;
   importCaptured: (captured: number[]) => void;
@@ -21,6 +20,7 @@ type DexContextProviderProps = {
 const DexContext = createContext({
   dex: [],
   captured: [],
+  currentDex: "national",
   toggleCaptured: () => {},
   cleanCaptured: () => {},
   importCaptured: () => {},
@@ -29,16 +29,16 @@ const DexContext = createContext({
 const DexContextProvider = (props: DexContextProviderProps) => {
   const [pokedex, setPokedex] = useState<Pokemon[]>([]);
   const [capturedIds, setCapturedIds] = useState<number[]>([]);
-
-  const defaultDexId = "national";
+  const [currentDex, setCurrentDex] = useState<AvailablePokedex>("national");
 
   useEffect(() => {
+    // first load, load currentDex as default dex
     async function loadDefaultDex() {
-      const dex = dexList.find((d) => d.id === defaultDexId) as IPokedex;
+      const dex = dexList.find((d) => d.id === currentDex) as IPokedex;
 
-      const nationalDex = await import(`../data/${dex.id}.json`);
+      const defaultDex = await import(`../data/${dex.id}.json`);
 
-      setPokedex(nationalDex.default);
+      setPokedex([...defaultDex.default] as Pokemon[]);
     }
 
     // first load, search for @pokeco:captured in localStorage and setCapturedIds
@@ -47,14 +47,12 @@ const DexContextProvider = (props: DexContextProviderProps) => {
         localStorage.getItem("@pokeco:captured") || "[]"
       );
 
-      console.log("Checking local storage:", localStorageCapturedIds);
-
       setCapturedIds(localStorageCapturedIds);
     }
 
-    loadDefaultDex();
     loadCapturedPokemons();
-  }, [defaultDexId]);
+    loadDefaultDex();
+  }, []);
 
   function toggleCaptured(id: string) {
     const idNumber = parseInt(id);
@@ -90,8 +88,9 @@ const DexContextProvider = (props: DexContextProviderProps) => {
   return (
     <DexContext.Provider
       value={{
-        captured: capturedIds || [],
         dex: pokedex || [],
+        captured: capturedIds || [],
+        currentDex,
         toggleCaptured,
         cleanCaptured,
         importCaptured,

@@ -5,7 +5,6 @@ import PokemonGrid from "@/components/PokemonGrid";
 import SearchBar from "@/components/SearchBar";
 
 import { pokemonSearch } from "@/utils/search";
-import { DexGen, DexGenNames, groupByGen } from "@/utils/dexOffsets";
 
 import useDex from "@/hooks/useDex";
 

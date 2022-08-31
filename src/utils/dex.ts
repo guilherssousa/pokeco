@@ -95,4 +95,26 @@ const pokedexes: Pokedex[] = [
   },
 ];
 
+export type AvailablePokedex =
+  | "national"
+  | "kanto"
+  | "original-johto"
+  | "hoenn"
+  | "original-sinnoh"
+  | "extended-sinnoh"
+  | "updated-johto"
+  | "original-unova"
+  | "updated-unova"
+  | "conquest-gallery"
+  | "kalos-central"
+  | "kalos-coastal"
+  | "kalos-mountain"
+  | "updated-hoenn"
+  | "original-alola"
+  | "original-melemele"
+  | "original-akala"
+  | "original-ulaula"
+  | "original-poni"
+  | "updated-alola";
+
 export default pokedexes;

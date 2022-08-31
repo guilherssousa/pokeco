@@ -11,6 +11,7 @@ export interface Pokedex {
   id: string;
   path: string;
 }
+
 export interface ILAE {
   location_area: {
     name: string;
