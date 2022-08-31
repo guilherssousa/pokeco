@@ -4,6 +4,7 @@ import SidebarLabel from "./SidebarLabel";
 import SidebarLink from "./SidebarLink";
 
 import useDex from "@/hooks/useDex";
+import useModal from "@/hooks/useModal";
 
 import listImage from "/list.svg";
 import remainingImage from "/remaining.svg";
@@ -13,6 +14,11 @@ import leftListImage from "/left-list.svg";
 
 const Sidebar = () => {
   const { currentDex } = useDex();
+  const { openModal } = useModal();
+
+  const handleToggleDexSelectionModal = () => {
+    openModal("DexSelection");
+  };
 
   return (
     <aside className={styles.sidebar}>
@@ -42,12 +48,12 @@ const Sidebar = () => {
           />
         </div>
       </div>
-      <div className={styles.bottom}>
+      <button className={styles.bottom} onClick={handleToggleDexSelectionModal}>
         <div>{currentDex.name} Dex</div>
-        <button className={styles.bottomButton}>
+        <div className={styles.bottomButton}>
           <img src={leftListImage} alt="Change Dex" />
-        </button>
-      </div>
+        </div>
+      </button>
     </aside>
   );
 };

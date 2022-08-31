@@ -14,3 +14,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  color: #fff;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
