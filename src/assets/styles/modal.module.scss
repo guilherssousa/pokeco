@@ -7,8 +7,23 @@
   z-index: 100;
   inset: 0;
 
-  align-items: center;
   justify-content: center;
+  padding-top: 6rem;
 
   color: #fff;
+}
+
+.modalContainer {
+  background-color: #282c34;
+  height: fit-content;
+  width: 80vw;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+
+  .actionRow {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
 }

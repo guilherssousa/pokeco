@@ -9,6 +9,7 @@ interface DexContextProps {
   captured: number[];
   currentDex: IPokedex;
   toggleCaptured: (id: string) => void;
+  changeDex: (dexId: AvailablePokedex) => void;
   cleanCaptured: () => void;
   importCaptured: (captured: number[]) => void;
 }
@@ -21,6 +22,7 @@ const DexContext = createContext({
   dex: [],
   captured: [],
   currentDex: {} as IPokedex,
+  changeDex: () => {},
   toggleCaptured: () => {},
   cleanCaptured: () => {},
   importCaptured: () => {},
@@ -85,12 +87,24 @@ const DexContextProvider = (props: DexContextProviderProps) => {
     setCapturedIds(capturedList);
   }
 
+  async function changeDex(dexId: AvailablePokedex) {
+    const newDex = dexList.find((d) => d.id === dexId);
+
+    if (!newDex) return;
+
+    const newDexData = await import(`../data/${newDex.id}.json`);
+
+    setCurrentDex(dexId);
+    setPokedex([...newDexData.default] as Pokemon[]);
+  }
+
   return (
     <DexContext.Provider
       value={{
         dex: pokedex || [],
         captured: capturedIds || [],
         currentDex: dexList.find((d) => d.id === currentDex) as IPokedex,
+        changeDex,
         toggleCaptured,
         cleanCaptured,
         importCaptured,
