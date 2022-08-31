@@ -9,11 +9,10 @@ import listImage from "/list.svg";
 import remainingImage from "/remaining.svg";
 import capturedImage from "/captured.svg";
 import settingsImage from "/settings.svg";
+import leftListImage from "/left-list.svg";
 
 const Sidebar = () => {
-  const { captured, dex } = useDex();
-
-  const percentage = Math.round((captured?.length / dex?.length) * 100);
+  const { currentDex } = useDex();
 
   return (
     <aside className={styles.sidebar}>
@@ -44,7 +43,10 @@ const Sidebar = () => {
         </div>
       </div>
       <div className={styles.bottom}>
-        Dex {percentage}% complete! ({captured?.length}/{dex?.length})
+        <div>{currentDex.name} Dex</div>
+        <button className={styles.bottomButton}>
+          <img src={leftListImage} alt="Change Dex" />
+        </button>
       </div>
     </aside>
   );

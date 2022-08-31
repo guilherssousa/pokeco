@@ -7,7 +7,7 @@ import dexList, { AvailablePokedex } from "@/utils/dex";
 interface DexContextProps {
   dex: Pokemon[];
   captured: number[];
-  currentDex: string;
+  currentDex: IPokedex;
   toggleCaptured: (id: string) => void;
   cleanCaptured: () => void;
   importCaptured: (captured: number[]) => void;
@@ -20,7 +20,7 @@ type DexContextProviderProps = {
 const DexContext = createContext({
   dex: [],
   captured: [],
-  currentDex: "national",
+  currentDex: {} as IPokedex,
   toggleCaptured: () => {},
   cleanCaptured: () => {},
   importCaptured: () => {},
@@ -90,7 +90,7 @@ const DexContextProvider = (props: DexContextProviderProps) => {
       value={{
         dex: pokedex || [],
         captured: capturedIds || [],
-        currentDex,
+        currentDex: dexList.find((d) => d.id === currentDex) as IPokedex,
         toggleCaptured,
         cleanCaptured,
         importCaptured,
