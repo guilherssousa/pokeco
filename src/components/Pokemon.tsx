@@ -29,7 +29,7 @@ const Pokemon: React.FC<Props> = ({ pokemon }) => {
     <a
       className={styles.pokemonEntry}
       onClick={handleClick}
-      href={`https://bulbapedia.bulbagarden.net/wiki/${pokemon.id}`}
+      href={`https://bulbapedia.bulbagarden.net/wiki/${pokemon.name}`}
       target="_blank"
       rel="noopener noreferrer"
     >
